@@ -75,7 +75,7 @@ body {
 }
 .main-photo {
   width: 312px; height: 312px;
-  background: #f1f3f8 url('http://umsf.dp.ua/images/2021/08/16/imgonline-com-ua-resize-rvlkdnwsmepqf.jpg') center/cover;
+  background: #f1f3f8 url('./files/main-photo.jpg') center/cover;
   border: 2.3px solid #cfd8e5;
   border-radius: 8px 18px 8px 28px;
   margin-bottom: 18px;
@@ -126,7 +126,7 @@ body {
 }
 .edu-img {
   width: 188px; height: 188px;
-  background: #f1f3f8 url('https://upload.wikimedia.org/wikipedia/commons/1/11/2018_Logo_of_DNU.jpg') center/cover;
+  background: #f1f3f8 url('./files/2018_Logo_of_DNU.jpg') center/cover;
   border: 2px solid #cfd8e5;
   border-radius: 12px 8px 18px 8px;
   margin-top: 6px;
@@ -169,7 +169,7 @@ body {
 .org-box { height: 62px; margin-bottom: 9px; margin-left: -5px;}
 .org-img {
   width: 100%; height: 52px;
-  background: #f1f3f8 url('https://www.5.ua/media/pictures/original/223598.jpg') center/cover;
+  background: #f1f3f8 url('./files/223598.jpg') center/cover;
   border-radius: 9px;
   border: 2.3px solid #cfd8e5;
   margin-bottom: 14px;
@@ -224,7 +224,7 @@ body {
 
 .mini-photo {
   width: 96px; height: 96px;
-  background: #e3eaf6 url('http://umsf.dp.ua/images/new_design.png') center/cover;
+  background: #e3eaf6 url('./files/logo.png') center/cover;
   border: 2.3px solid #cfd8e5;
   border-radius: 7px 13px 9px 19px;
   margin-top: 12px;
