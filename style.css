@@ -1,0 +1,246 @@
+html { scroll-behavior: smooth; }
+body {
+  background: #eaf0fa;
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #27344b;
+}
+.header {
+  background: #29487d;
+  color: #fff;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px 0 rgba(41,72,125,0.07);
+}
+.header-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 36px;
+  height: 70px;
+}
+.logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.18s;
+}
+.logo:hover { opacity: 0.88; }
+.nav {
+  display: flex;
+  gap: 28px;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.08rem;
+  font-weight: 500;
+  opacity: 0.92;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: border 0.2s, opacity 0.2s;
+}
+.nav a:hover, .nav a.active {
+  opacity: 1;
+  border-bottom: 2px solid #fff;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px 32px 24px;
+}
+
+.main-block {
+  display: flex;
+  gap: 36px;
+  margin-bottom: 48px;
+  align-items: flex-start;
+
+}
+.main-left {
+  min-width: 380px;
+  flex: 1.2;
+  margin-top: 26px; /* Эффект "съехавшего" блока */
+}
+.fio {
+  font-size: 2.05rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #29487d;
+  letter-spacing: -2px;
+}
+.main-photo {
+  width: 312px; height: 312px;
+  background: #f1f3f8 url('http://umsf.dp.ua/images/2021/08/16/imgonline-com-ua-resize-rvlkdnwsmepqf.jpg') center/cover;
+  border: 2.3px solid #cfd8e5;
+  border-radius: 8px 18px 8px 28px;
+  margin-bottom: 18px;
+  margin-left: 45px;
+  margin-top: 10px;
+  box-shadow: 4px 6px 24px 0 rgba(50,80,120,0.06);
+}
+.main-desc {
+  height: 160px;
+  background: #fff;
+  border: 2.3px solid #cfd8e5;
+  border-radius: 8px 14px 10px 14px;
+  padding: 20px 34px 16px 12px;
+  font-size: 1.08rem;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 9px 0 rgba(41,72,125,0.04);
+  margin-left: -18px;
+}
+.main-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.section {
+  margin-bottom: 42px;
+
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+}
+.section-title {
+  font-size: 1.36rem;
+  color: #29487d;
+  font-weight: 600;
+  margin-bottom: 14px;
+  margin-left: 6px;
+  letter-spacing: -1px;
+}
+
+.education-flex {
+  display: flex;
+  gap: 26px;
+  align-items: flex-start;
+}
+.edu-img {
+  width: 188px; height: 188px;
+  background: #f1f3f8 url('https://upload.wikimedia.org/wikipedia/commons/1/11/2018_Logo_of_DNU.jpg') center/cover;
+  border: 2px solid #cfd8e5;
+  border-radius: 12px 8px 18px 8px;
+  margin-top: 6px;
+  margin-left: 8px;
+}
+.edu-details { flex: 1; }
+.edu-year-block { margin-bottom: 10px; }
+.edu-year-title { font-weight: bold; margin-bottom: 4px; }
+.edu-year-box {
+  background: #fff;
+  border: 2.3px solid #cfd8e5;
+  border-radius: 7px 16px 7px 10px;
+  height: 84px;
+  padding: 7px 14px;
+  margin-bottom: 12px;
+  font-size: 1.01rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  box-shadow: 1.5px 1.5px 5px 0 rgba(41,72,125,0.03);
+  margin-left: 12px;
+}
+
+.org-flex {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+}
+.org-left, .org-right { flex: 1; }
+.org-year-title { font-weight: bold; margin-bottom: 6px; margin-left: 6px;}
+.org-box-big, .org-box {
+  background: #fff;
+  border: 2.3px solid #cfd8e5;
+  border-radius: 12px 24px 8px 12px;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+  box-shadow: 1.5px 2.5px 8px 0 rgba(41,72,125,0.04);
+}
+.org-box-big { height: 182px; margin-left: 18px; margin-right: 22px;}
+.org-box { height: 62px; margin-bottom: 9px; margin-left: -5px;}
+.org-img {
+  width: 100%; height: 52px;
+  background: #f1f3f8 url('https://www.5.ua/media/pictures/original/223598.jpg') center/cover;
+  border-radius: 9px;
+  border: 2.3px solid #cfd8e5;
+  margin-bottom: 14px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-left: 10px;
+}
+.cert-cell {
+  aspect-ratio: 4/3;
+  background: #dbe6f5;
+  border: 2.3px dashed #a5b8d6;
+  border-radius: 8px 16px 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #879ab8;
+  font-size: 1.13rem;
+  box-shadow: 2px 2px 6px 0 rgba(41,72,125,0.02);
+}
+
+.details-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 8px;
+}
+.detail-col {
+  flex: 2;
+  min-width: 210px;
+}
+.detail-title { font-weight: bold; margin-bottom: 2px;}
+.detail-box {
+  background: #fff;
+  border: 2.3px solid #cfd8e5;
+  border-radius: 10px 7px 18px 8px;
+  height: 56px;
+  margin: 10px 0 18px 0;
+  box-shadow: 1.5px 1.5px 6px 0 rgba(41,72,125,0.03);
+}
+.detail-box-large{
+  background: #fff;
+  border: 2.3px solid #cfd8e5;
+  border-radius: 10px 7px 18px 8px;
+  height: 126px;
+  margin: 10px 0 18px 0;
+  box-shadow: 1.5px 1.5px 6px 0 rgba(41,72,125,0.03);
+}
+
+.mini-photo {
+  width: 96px; height: 96px;
+  background: #e3eaf6 url('http://umsf.dp.ua/images/new_design.png') center/cover;
+  border: 2.3px solid #cfd8e5;
+  border-radius: 7px 13px 9px 19px;
+  margin-top: 12px;
+  margin-left: 17px;
+}
+
+@media (max-width: 1100px) {
+  .main-block, .education-flex, .org-flex { flex-direction: column; }
+  .main-photo { width: 100%; }
+}
+@media (max-width: 850px) {
+  .cert-grid { grid-template-columns: repeat(2, 1fr);}
+  .header-inner { flex-direction: column; height: auto; gap: 12px;}
+}
+@media (max-width: 600px) {
+  .container { padding: 0 4px 32px 4px;}
+  .main-block, .education-flex, .org-flex, .details-grid { gap: 12px;}
+  .cert-grid { grid-template-columns: 1fr;}
+}
